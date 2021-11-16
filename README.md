@@ -16,7 +16,7 @@ O to.do! é uma aplicação que permite adicionar as tarefas do dia a dia, marca
 
 ## 📄 Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 
 
