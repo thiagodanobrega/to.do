@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="to.do" title="to.do" src="https://github.com/thiagodanobrega/to.do/blob/master/smartmockups_to_do.jpg?raw=true" width="700px" />
+  <img alt="to.do" title="to.do" src="https://github.com/thiagodanobrega/to.do/blob/master/image_to_do.png?raw=true" width="900px" />
 </p>
 
 ## 🚀 Tecnologias
