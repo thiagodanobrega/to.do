@@ -14,4 +14,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O to.do! é uma aplicação que permite adicionar as tarefas do dia a dia, marcar como concluídas e excluir.
 
+## 📄 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+
 
