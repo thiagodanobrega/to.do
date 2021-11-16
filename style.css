@@ -1,0 +1,133 @@
+:root{
+  --dracula:#4a3874;
+  --colorBackground: #8257E5;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--colorBackground);
+}
+header{
+  text-align: center;
+  padding-top: 20px; 
+}
+h1{
+  color: white;
+  font-size: 3rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 20px;
+}
+h2{
+  font-size: 22px;
+  
+  margin-bottom: 15px;
+}
+#container{
+  margin: auto;
+  text-align: center;
+  width: min(80vw, 500px);
+  color: white;
+}
+#taskHeader{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#taskForm{
+  position: relative;
+}
+#taskTitle{
+  box-sizing: border-box;
+  border: 1px solid var(--dracula);
+  background: white;
+  color: var(--dracula);
+  padding: 15px;
+  font-size: 18px;
+  width: 100%;
+  border-radius: 5px;
+}
+#taskTitle::placeholder{
+  color: #34073D;
+}
+#taskTitle:focus{
+  outline: none;
+}
+#Btn{
+  position: absolute;
+  width: 60px;
+  height: 53px;
+  background: white;
+  cursor: pointer;
+  transition: .5s;
+  border: 1px solid var(--dracula);
+  border-radius: 0px 5px 5px 0px;
+  top: 0;
+  right: 0;
+}
+#Btn:hover{
+  background-color: var(--dracula);
+  color: white;
+}
+ion-icon{
+  font-size: 25px;
+}
+#taskList{
+  list-style: none;
+  padding-left: 0;
+}
+#taskList li{
+  text-align: left;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  border-bottom: 3px solid var(--dracula);
+  border-radius: 5px;
+  background-color: white;
+  color: var(--dracula);
+  margin-bottom: 10px;
+  padding-left: 15px;
+  transition: .5s;
+  font-weight: bold;
+}
+.taskBox ion-icon{
+  position: absolute;
+  top: 0;
+  height: 40px;
+  width: 30px;
+  transition: .5s;
+  cursor: pointer;
+  padding: 5px;
+}
+.checkTask{
+  right: 40px;
+}
+.removeTask{
+  right: 0;
+}
+.checkTask:hover{
+  color: white;
+  background-color: #09E018;
+  
+}
+.removeTask:hover{
+  color: white;
+  background-color: #EB0927;
+  border-radius: 0px 5px 5px 0px;
+  
+}
+.hide{
+  display: none;
+}
+#taskList li.done{
+  background-color: var(--dracula);
+  color: white;
+  text-decoration: line-through;
+}
+footer{
+  text-align: center;
+  color:#D4C2FF;
+  margin-top: 60px;
+  font-size: 14px;
+}

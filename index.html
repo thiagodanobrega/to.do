@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>to.do!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,400;1,700&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <h1>to.do!</h1>
+  </header>
+  <main id="container">
+    <section id="taskHeader">
+      <h2>Salve sua próxima tarefa:</h2>
+      <form action="" id="taskForm">
+        <input type="text" id="taskTitle" placeholder="O que você vai fazer?">
+        <button id="Btn" type="submit">
+          <ion-icon name="add-outline"></ion-icon>
+        </button>
+      </form>
+    </section>
+    <section id = "taskListContainer">
+      <h2>Estas são as suas tarefas:</h2>
+      <ul id="taskList">
+        <li class="taskBox template hide">
+          <span class="taskTitle"></span>
+          <ion-icon class="checkTask" name="checkmark-outline"></ion-icon>
+          <ion-icon class="removeTask" name="close-outline"></ion-icon>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>to.do! | Feito por Thiago Nóbrega</p>
+  </footer>
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
