@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="to.do" title="to.do" src="https://github.com/thiagodanobrega/todo-list/blob/master/mockup.png?raw=true" width="900px" />
+  <img alt="to.do" title="to.do" src="https://github.com/thiagodanobrega/to.do/blob/master/image_to_do.png?raw=true" width="900px" />
 </p>
 
 ## 🚀 Tecnologias
@@ -14,7 +14,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O todo-list é um projeto desenvolvido no curso da Trybe que permite adicionar as tarefas do dia a dia, marcar como concluídas e excluir.
+O to.do! permite adicionar as tarefas do dia a dia, marcar como concluídas e excluir.
 
 ## 📄 Licença
 
